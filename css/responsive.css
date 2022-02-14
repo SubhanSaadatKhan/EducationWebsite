@@ -1,0 +1,49 @@
+@media only screen and (max-width:1110px){
+    .leftNav{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 300px;
+        transition: all 2s ease-out;
+        justify-content: center;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+        padding: 45px 0px;
+    }
+    .secondHalf img{
+        width: 30%;
+    }
+    .burger{
+        display: block;
+
+    }
+    .h-nav-resp{
+        height: 50px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+
+    .section{
+        flex-direction: column-reverse;
+    }
+
+    .text-big{
+        text-align: center;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .paras{
+        padding: 0px;
+    }
+}
